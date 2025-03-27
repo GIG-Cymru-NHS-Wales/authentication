@@ -76,7 +76,7 @@ We welcome suggestions for this page. Contact email is [joel.henderson@wales.nhs
 
 **Touch dynamics**
 
-### More terminology
+### Factors
 
 **Authentication factors**: The three typical authentication factors (a.k.a. categories) are something you know, something you have, something you are.
 
@@ -84,7 +84,21 @@ We welcome suggestions for this page. Contact email is [joel.henderson@wales.nhs
 
 **Multi-Factor Authentication (MFA)**: Require multiple authentication factors to authenticate. The use of multiple factors offers much better protection than single-factor authentication. A typical example: require a password (which is something you know) and time-based one-time password using your mobile phone (which is something you have). [ⓘ](https://wikipedia.org/wiki/Multi-factor_authentication)
 
-**Continuous authentication**: Most computer systems authenticate users once at the initial log-in session. Some higher-security systems need continuous user authentication methods that continuously monitor and authenticate users based on some biometric trait(s). [ⓘ](https://wikipedia.org/wiki/Continuous_authentication)
+### Timing
+
+**Initial authentication**: Most computer systems authenticate users once at the start of the session.
+
+**Escalation authentication**: Some higher-security systems require a user to do a higher-security authentication, such as right before accessing a sensitive resource, or right before doing an irreversible action. For example, suppose a user signs in to a bank system by doing an initial authentication. The user can view their balance. If the user chooses to transfer money, then the system does an additional authentication, such as requiring the user to re-enter their password, or requiring the user to provide another authentication factor.
+
+**Continuous authentication**: Some higher-security systems require methods that continuously monitor and authenticate users based on some biometric trait(s). For example, suppose the user is at a bank automatic teller machine (ATM), and signs in. The ATM camera continually watches the user, and tells the system that it's the same user using the ATM. If the user leaves the camera view, then the ATM camera deauthenticates the user, and the ATM machine prompts the user to sign in again. [ⓘ](https://wikipedia.org/wiki/Continuous_authentication)
+
+### More terminology
+
+**OpenID**: OpenID is a decentralized authentication protocol that allows users to be authenticated by a third party. One of the key benefits of OpenID is that it allows users to control their own identity information, rather than relying on individual websites to store and manage their login credentials. [ⓘ](https://wikipedia.org/wiki/OpenID)
+
+**OpenID Connect (OIDC)**: OpenID Connect (OIDC) OpenID Connect 1.0 is a simple identity layer on top of the OAuth 2.0 protocol. It allows Clients to verify the identity of an End-User based on the authentication performed by an authorisation server, as well as to obtain basic profile information about the End-User in an interoperable and REST-like manner.
+
+**OAuth**: OAuth (short for open authorization) is an open standard for access delegation, commonly used as a way for internet users to grant websites or applications access to their information on other websites but without giving them the passwords. [ⓘ](https://wikipedia.org/wiki/OAuth)
 
 **Authentication protocol**: This is a type of computer communications protocol or cryptographic protocol specifically designed for transfer of authentication data between two entities. It allows the receiving entity to authenticate the connecting entity (e.g. a client connecting to a server) as well as authenticate itself to the connecting entity (a server to a client) by declaring the type of information needed for authentication as well as syntax. [ⓘ](https://wikipedia.org/wiki/Authentication_protocol)
 
