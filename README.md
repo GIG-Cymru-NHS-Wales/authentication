@@ -84,6 +84,25 @@ We welcome suggestions for this page. Contact email is [joel.henderson@wales.nhs
 
 **Multi-Factor Authentication (MFA)**: Require multiple authentication factors to authenticate. The use of multiple factors offers much better protection than single-factor authentication. A typical example: require a password (which is something you know) and time-based one-time password using your mobile phone (which is something you have). [ⓘ](https://wikipedia.org/wiki/Multi-factor_authentication)
 
+### Parties
+
+**Authentication party**: Whomever is being authenticated, typically a person.
+
+**Single-party authentication (SPA)**: Require one party to authenticate. This
+is typical authentication, such as authentication of one person.
+
+**Multi-party authentication (MPA)**: Require multiple parties to authenticate
+in the same time period. This is specialized authentication, such as
+authentication of two persons for the purpose of higher security.
+
+**Two-person rule (2PR)**: The two-person rule is a control mechanism designed
+to achieve a high level of security for especially critical material or
+operations. Under this rule, access and actions require the presence of two or
+more authorized people.
+
+**Two-person integrity (2PI)** is the name for the security measures taken to
+prevent single-person access.
+
 ### Timing
 
 **Initial authentication**: Most computer systems authenticate users once at the start of the session.
